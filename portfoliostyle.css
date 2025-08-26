@@ -1,0 +1,259 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav{
+    width: auto;
+    height: 80px;
+    background-color:rgb(30, 28, 28);
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: 0px;
+    border-radius: 10px;
+}
+
+.nav ul li{
+    list-style-type: none;
+    color:black;
+}
+.nav_content{
+    width: 500px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 600px; 
+     position: fixed;
+     color: white;
+}
+
+.title{
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 40px;
+    color: black;
+}
+.nav ul li{
+    color: white;
+}
+.nav ul li:hover{
+   color: rgb(230, 93, 205);
+}
+
+.frnt_img{
+    width: auto;
+    height: 560px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRlnFmkgSWplssUT2ScUHbfA6e1VPP4frNlg&s");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+
+    /* background-position: center; */
+}
+
+.box{
+    width: 40px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links_box{
+    width: 40px;
+    height: 180px;
+    background-color:rgb(248, 240, 240);
+}
+
+.box_two{
+    width: 1400px;
+    height: 500px;
+      /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box_three{
+    width: 800px;
+    height: 180px;
+    /* border: 1px solid black; */
+    text-align: center;
+    /* margin-top: 250px; */
+}
+
+.btn{
+    width: 170px;
+    height: 50px;
+    border: 1px solid black;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: large;
+    background-color: rgb(243, 211, 85);
+}
+
+.btn:hover{
+    background-color: rgb(122, 122, 222);
+}
+.box_logo{
+    width: 90px;
+    height: 80px;
+    background-image: url("/22-08Assingment/WhatsApp\ Image\ 2024-07-25\ at\ 17.01.23_7cbda961.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    left: 70px;
+    border-radius: 50%;
+}
+
+.about_box{
+    width: 1100px;
+    height: 200px;
+    border: 1px solid rgb(155, 225, 114);
+    padding-left: 100px;
+    margin-left: 50px;
+    border: 1px solid white;
+    box-shadow: 0 0 25px 10px rgb(197, 178, 74);
+    animation: animate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes animate{
+    form{
+        border: rgb(162, 233, 91);
+    }
+    to{
+        border: rgb(240, 103, 203);
+    }
+}
+
+.container{
+    background-color: rgb(37, 36, 39);;
+}
+
+.about{
+    width: auto;
+    height: 300px;
+    /* background-color: rgb(131, 133, 133); */
+}
+
+.skills{
+    width: auto;
+    height: 300px;
+    /* background-color: rgb(242, 236, 236); */
+}
+
+.skill_logo{
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(229, 222, 222);
+    border-radius: 8px;
+    box-shadow: 10px;
+    transition: all 0.5s ease-in-out; 
+    
+}
+.skill_logo:hover{
+    transform: scale(1.5);
+    border-color: red;
+}
+
+.services{
+    width: auto;
+    height: 400px;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    justify-content: space-between;
+    /* background-color: rgb(131, 133, 133); */
+      transition: all 0.5s ease-in-out; 
+}
+
+.services :hover{
+    transform: scale(1.1);
+    border-color: rgb(105, 105, 208);
+         box-shadow: 0 0 25px 10px rgb(205, 206, 205);
+    
+}
+
+.ser_cont:hover{
+    transform: none;
+}
+
+.ser_box{
+    width: 260px;
+    height: 270px;
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+       border-radius: 10px;
+}
+
+.cont_box{
+    width: 200px;
+    height: 50px;
+    padding-left: 10px;
+}
+
+.project_box{
+    width: auto;
+    height: 350px;
+    display: flex;
+   flex-direction: row;
+   padding-left: 20px;
+   justify-content: space-between;
+   padding-left: 100px;
+   padding-right: 100px;
+
+}
+
+.ser_box2{
+    width: 260px;
+    height: 270px;
+    border: 1px solid black;
+       border-radius: 10px;
+        margin-top: 50px;
+}
+
+.img_project{
+    width: 260px;
+    height: 200px;
+}
+
+.contact_detail{
+    width: auto;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_box{
+    width: 600px;
+    height: 300px;
+    /* border: 1px solid white; */
+    padding-left: 80px;
+}
+
+.btn_submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
+}
+
+.anc_tag{
+    text-decoration: none;
+    color:rgb(103, 99, 99);
+
+}
